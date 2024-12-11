@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-databricks-alura-curso"
+		},
+		"linkedService_Datafactory_Databricks_accessToken": {
+			"value": ""
+		},
+		"linkedService_Datafactory_Databricks_properties_typeProperties_existingClusterId": {
+			"value": "1209-171317-a98q1qbi"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
