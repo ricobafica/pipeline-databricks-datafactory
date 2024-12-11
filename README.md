@@ -1,6 +1,6 @@
 # pipeline-databricks-datafactory
 
-Este repositório armazena o desenvolvimento completo de um pipeline de engenharia de dados tal como orientado no curso Alura Databricks e DataFactory - Criando e orquestrando pipelines na nuvem.
+Este repositório armazena o desenvolvimento completo de um pipeline de engenharia de dados tal como orientado no curso Alura Databricks e DataFactory - Criando e orquestrando pipelines na nuvem com a professora Millena Gená Pereira.
 
 O objetivo de desenvolvimento foi:
 
