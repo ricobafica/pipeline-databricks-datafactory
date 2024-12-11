@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-databricks-alura-curso",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "77f246e2-d2f8-4dac-9c54-3ed7da30b115",
+		"tenantId": "a828f475-cc32-46e1-8436-807146b05dd7"
+	}
+}
