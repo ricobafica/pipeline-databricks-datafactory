@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/ricardo.bafica@hotmail.com/pipeline-databricks-datafactory/notebooks/scala_inbound_to_bronze"
+				},
+				"linkedServiceName": {
+					"referenceName": "linkedService_Datafactory_Databricks",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "ingestao-camada-silver",
@@ -33,7 +40,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/ricardo.bafica@hotmail.com/pipeline-databricks-datafactory/notebooks/scala_bronze_to_silver"
+				},
+				"linkedServiceName": {
+					"referenceName": "linkedService_Datafactory_Databricks",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
